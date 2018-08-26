@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -121,6 +122,13 @@ public class RegisterActivity extends AppCompatActivity {
                     return;
                 }
 
+                //이메일 형식 체크
+                if(!android.util.Patterns.EMAIL_ADDRESS.matcher(userEmail).matches())
+                {
+                    Toast.makeText(RegisterActivity.this,"이메일 형식이 아닙니다",Toast.LENGTH_SHORT).show();
+                    dialog.dismiss();
+                    return;
+                }
 
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {

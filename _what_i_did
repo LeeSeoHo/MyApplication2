@@ -15,6 +15,9 @@
 2018.08.09 aws ec2서버에 mysql올리기, db기초 개념 공부
 2018.08.10 kakao 로그인api 사용해보기(실패)
 2018.08.18 daum map api 사용실패 ( 앱이 중지됨... ), 구글맵api 지도 띄우기
+2018.08.26 -버전 api28로 올림
+           -build.gradle(module: app) 의 compile -> implementation
+           -MapActivity 생성
 
 <Jeon Hye Sun>
 2018.08.09 모바일 프로그래밍 ppt (기본 위젯 익히기, 레이아웃 익히기)

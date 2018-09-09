@@ -8,12 +8,16 @@
 
 <Lee Jin Ah>
 2018.08.09 Layout 속성 개념, Linear Layout 클래스 개념(+텍스트 뷰 배치 실습)
-2018.08.18 TableLayout, RelativeLayout 개념 / 로그인화면 만들어보기(동빈나 강좌 1-3강까지)
+2018.08.18 TableLayout, RelativeLayout 개념 / 회원가입 & 로그인 프로젝트(동빈나 강좌 1-3강까지)
+2018.08.26 회원가입 & 로그인 프로젝트(4-9강)-> 회원관리(삭제, 검색)
   
 <Hong Seok Jun>
 2018.08.09 aws ec2서버에 mysql올리기, db기초 개념 공부
 2018.08.10 kakao 로그인api 사용해보기(실패)
 2018.08.18 daum map api 사용실패 ( 앱이 중지됨... ), 구글맵api 지도 띄우기
+2018.08.26 -버전 api28로 올림
+           -build.gradle(module: app) 의 compile -> implementation
+           -MapActivity 생성
 
 <Jeon Hye Sun>
 2018.08.09 모바일 프로그래밍 ppt (기본 위젯 익히기, 레이아웃 익히기)

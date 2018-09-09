@@ -24,11 +24,11 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".MapActivity" />
         <activity
             android:name=".Maptest"
             android:label="@string/title_activity_maptest"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".select_Activity"></activity>
     </application>
 
 </manifest>

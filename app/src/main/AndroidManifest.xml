@@ -28,7 +28,8 @@
             android:name=".Maptest"
             android:label="@string/title_activity_maptest"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".select_Activity"></activity>
+        <activity android:name=".select_Activity" />
+        <activity android:name=".Univ_select"></activity>
     </application>
 
 </manifest>

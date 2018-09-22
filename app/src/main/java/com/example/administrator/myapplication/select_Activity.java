@@ -3,7 +3,10 @@ package com.example.administrator.myapplication;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -45,5 +48,12 @@ public class select_Activity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
+                Toast.makeText(select_Activity.this, "dkajsdf", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

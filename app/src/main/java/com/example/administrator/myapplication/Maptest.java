@@ -43,4 +43,6 @@ public class Maptest extends AppCompatActivity implements OnMapReadyCallback {
         map.animateCamera(CameraUpdateFactory.zoomTo(17));
     }
 
+
+
 }
